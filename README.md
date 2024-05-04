@@ -1,11 +1,12 @@
 # Generar contraseñas seguras - Generate Strong Passwords
-Una pequeña app para generar contraseñas seguras compuestas de 15 caracteres combinados. Desarrollada con HTML, CSS y JavaScript)
+Una aplicación para generar contraseñas seguras compuestas de 15 caracteres combinados, Existen más de 24 mil cuatrillones de contraseñas únicas.\
+Desarrollada con HTML, CSS y JavaScript
 
 ## Ver la presentación!
-[Web -> Generador de contraseñas](https://wilalz.github.io/Landing-page-responsive-Real-estate-Figma-HTML-CSS/)
+[Web -> Generador de contraseñas](https://wilalz.github.io/App-Generador-De-Contrase-as/)
 
 <!-- imagen -->
-![app](https://github.com/Wilalz/Landing-page-responsive-Real-estate-Figma-HTML-CSS/blob/main/assets/Web%20resultante%20-%20Landing%20page%20Real%20estate.jpg)
+![app](https://github.com/Wilalz/App-Generador-De-Contrase-as/blob/main/Generador%20contrase%C3%B1as.jpg)
 
 ## Instalación
 Clona o descarga el repósitorio\
