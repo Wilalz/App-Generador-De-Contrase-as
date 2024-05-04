@@ -1,0 +1,62 @@
+*{
+    background-color: azure;
+    box-sizing: content-box;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+h1{
+    margin: 15px 0;
+}
+
+#container{
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid gray 1px;
+    
+
+}
+#container:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#btnGenerate{
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1.5rem;
+
+    
+}
+#btnGenerate:hover{
+    background-color: #0072BB;
+    color: white;
+
+
+}
+
+
+#passWord{
+    width: 250px;
+    height: 30px;
+    font-size: 1.5rem;
+    margin: 20px 10px;
+    text-align: center;
+}
