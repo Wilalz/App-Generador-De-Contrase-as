@@ -1,4 +1,10 @@
-*{
+:root {
+    --color-wil: #0072bb;
+    --color-wil-light: hsl(203, 100%, 47%);
+    --color-wil-dark: hsl(203, 100%, 27%);
+}
+
+* {
     background-color: azure;
     box-sizing: content-box;
     margin: 0;
@@ -7,18 +13,18 @@
     font-style: normal;
 }
 
-body{
+body {
     width: 300px;
     margin: 0 auto;
     text-align: center;
 
 }
 
-h1{
+h1 {
     margin: 15px 0;
 }
 
-#container{
+#container {
     border-radius: 5px;
     margin: 20px auto;
     width: 300px;
@@ -28,35 +34,66 @@ h1{
     align-items: center;
     justify-content: center;
     border: solid gray 1px;
-    
-
 }
-#container:hover{
+
+#container:hover {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-#btnGenerate{
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100px;
-    height: 40px;
-    margin: 5px;
-    font-size: 1.5rem;
-
-    
-}
-#btnGenerate:hover{
-    background-color: #0072BB;
-    color: white;
-
-
-}
-
-
-#passWord{
+#passWord {
     width: 250px;
     height: 30px;
     font-size: 1.5rem;
     margin: 20px 10px;
     text-align: center;
 }
+
+#btnGenerate {
+    font-size: 1.1rem;
+    margin: 5px;
+    border-radius: 0.7rem;
+    border: 2px solid rgb(50, 50, 50);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+#btnGenerate:hover {
+    background-color: var(--color-wil);
+    color: white;
+}
+
+#btnGenerate:active {
+    border: 2px solid var(--color-wil-light);
+    color: hsl(203, 100%,90%)
+}
+
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    min-height: 5%;
+    max-height: 10%;
+
+}
+
+.hLine{
+    height: 1px;
+    background-color: var(--color-wil);
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin: 5px;
+    height: 1.2rem;
+}
+
